@@ -1,0 +1,61 @@
+﻿body {margin:0; height:100%;font-weight:bold;}
+.main_div_Login
+{
+    padding-top:22%; padding-left:40%; vertical-align: middle; height: 100%;clip: rect(25%, auto, auto, auto); text-align:center;
+     -webkit-animation-name: example; 
+  -webkit-animation-duration: 1s; 
+  animation-name: example;
+  animation-duration: 1s;
+    }
+.modal_div_Login{background-image:url('../images/3d.jpg'); width:28%; box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.3); border-radius:5px;}
+.modal_div_header{font-size: 5vh;  font-family: Calibri; font-weight: 700; color: #FFFFFF; text-decoration: underline; text-align:center}
+.modal_div_Username{ margin-top:20%;}
+.modal_div_textUsername{ font-family: Calibri; padding:2%; text-decoration: underline; color: #FFFFFF;font-size: large; width:45%; text-align:right; float:left}
+.modal_div_textBoxUsername{text-align:center;padding:2%;}
+.modal_div_password{ margin-top:2%;}
+.modal_div_button{margin-top:10%; padding:5%; text-align:right}
+.modal_Loginbutton{ border-style: none; border-color: inherit; border-radius:5px; padding:1%; border-width: medium; font-family: Calibri; color: #000000; font-size: 100%; background-color: #FFFFFF; font-weight: bold; box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.3); margin-right:10px;}
+.modal-TextBox{ border-radius:5px; width:70%}
+
+.primary-button {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #000000;
+  letter-spacing: 1px;
+  font-size: 11px;
+  padding: 12px 18px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius:5px;
+}
+
+.primary-button:hover {
+  background-color: transparent;
+  border: 1px solid #fff;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  color:#FFFFFF;
+}
+
+.modal-TextBox:focus 
+{
+    border-radius:5px; 
+    width:70%;
+    height:30px;
+}
+
+/*border-top-left-radius:3px; border-bottom-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px;*/
+
+@-webkit-keyframes example {
+  from {padding-top:100%;padding-left:40%;}
+  to {padding-top:22%}
+}
+
+/* Standard syntax */
+@keyframes example {
+ from {padding-top:100%;padding-left:40%;}
+  to {padding-top:22%}
+}

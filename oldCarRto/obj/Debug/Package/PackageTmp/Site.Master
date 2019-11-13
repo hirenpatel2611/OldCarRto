@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="BIS_Embroidery.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header">
+        <div class="header-main">
+            <div class="container clearfix">
+                <div class="logo-side clearfix">
+                    <div class="logo">
+                        <a href="#">
+                            <asp:Image ID="Image2" ImageUrl="~/images/arrow right.png" runat="server" Width="50px" Height="30px" alt="logo" />
+                            
+                        </a>
+                      
+                    </div>
+                    <div class="header-min-content">
+                        <span><a href="../Dasbord/Dasbord.aspx">
+                            Sradha Motor Driving School</a></span>      
+                    </div>
+                </div>
+                <div id="menuside" class="menu-side">
+                    <a class="menu-none"><i></i><i></i><i></i></a>
+                    <div class="menu clearfix">
+                        <ul id="menmenu" runat="server">
+                            <li class="menu-btn" data-tab="menu-1"><a href="#">Home</a>
+                                <ul id="menu-1">
+                                    <li><a href="../Dasbord/Dasbord.aspx">
+                                        <asp:Image ID="Image40" runat="server" ImageUrl="~/images/arrow right.png" Height="12px" CssClass="menu-btn-ui-li-image"/>Dashboard</a>
+                                    </li>
+                                    
+                                    <li>
+                                        <asp:Image ID="Image42" runat="server" ImageUrl="~/images/arrow right.png" Height="12px" />
+                                        <asp:Button ID="btn_LogOut" runat="server" Text="LogOut" 
+                                            onclick="btn_LogOut_Click" BackColor="Black" BorderStyle="None" 
+                                            Font-Names="Calibri" ForeColor="White" />
+                                    </li>
+                    
+                                </ul>
+                            </li>
+                            <li id="Master" runat="server" class="menu-btn" data-tab="menu-2"><a>Master</a>
+                                <ul id="menu-2">
+                                    <li id="partymaster" runat="server" visible="true"><a href="/Master/PartyMasterView.aspx">
+                                        <asp:Image ID="Image5" runat="server" ImageUrl="~/images/arrow right.png" 
+                                            Height="12px" CssClass="menu-btn-ui-li-image" />ShowRoom
+                                        Master</a> </li>
+                                   
+                                </ul>
+                            </li>
+                             <li id="Voucher" runat="server" class="menu-btn" data-tab="menu-3"><a>Voucher</a>
+                                <ul id="menu-3">
+                                    <li id="Li2" runat="server" visible="true"><a href="/Inword/InwordView.aspx">
+                                        <asp:Image ID="Image1" runat="server" ImageUrl="~/images/arrow right.png" 
+                                            Height="12px" CssClass="menu-btn-ui-li-image" />In word
+                                            </a> </li>
+                                   
+                                </ul>
+                            </li>
+                        
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainContainor">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Project\RTO Bapu\Publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Inword/InwordPrint.aspx" publishTime="10/18/2019 08:26:22" />
+    <file relUrl="images/01.png" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="css/chosen.min.css" publishTime="10/13/2019 22:24:04" />
+    <file relUrl="Site.Master" publishTime="10/15/2019 22:58:33" />
+    <file relUrl="js/jquery.min.js" publishTime="10/13/2019 22:24:16" />
+    <file relUrl="js/script.js" publishTime="10/13/2019 22:24:16" />
+    <file relUrl="Inword/InwordEdit.aspx" publishTime="10/18/2019 07:20:37" />
+    <file relUrl="images/logo-border-sedo.png" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="Inword/InwordView.aspx" publishTime="10/18/2019 00:13:09" />
+    <file relUrl="images/srb.png" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="css/chosen-sprite@2x.png" publishTime="10/13/2019 22:24:04" />
+    <file relUrl="images/3d.jpg" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="js/chosen.jquery.js" publishTime="10/13/2019 22:24:16" />
+    <file relUrl="Dasbord/Dasbord.aspx" publishTime="10/13/2019 23:07:10" />
+    <file relUrl="css/chosen-sprite.png" publishTime="10/13/2019 22:24:04" />
+    <file relUrl="Login/Login.aspx" publishTime="10/13/2019 22:25:32" />
+    <file relUrl="js/chosen.proto.js" publishTime="10/13/2019 22:24:16" />
+    <file relUrl="images/menu-btn-bg.jpg" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="css/chosen.css" publishTime="10/13/2019 22:24:04" />
+    <file relUrl="images/arrow right.png" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="Inword/Inword.aspx" publishTime="10/18/2019 07:21:13" />
+    <file relUrl="bin/oldCarRto.pdb" publishTime="10/18/2019 22:20:01" />
+    <file relUrl="images/menu-btn-hover-bg.jpg" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="images/Ruppess.png" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="bin/oldCarRto.dll" publishTime="10/18/2019 22:20:01" />
+    <file relUrl="images/001.png" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="Login/LoginStyle.css" publishTime="10/13/2019 22:25:32" />
+    <file relUrl="images/heaher-bg.jpg" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="js/chosen.jquery.min.js" publishTime="10/13/2019 22:24:16" />
+    <file relUrl="Web.config" publishTime="10/18/2019 22:20:01" />
+    <file relUrl="js/chosen.proto.min.js" publishTime="10/13/2019 22:24:16" />
+    <file relUrl="images/calendar.jpg" publishTime="10/13/2019 22:48:42" />
+    <file relUrl="css/style.css" publishTime="10/13/2019 22:24:04" />
+    <file relUrl="images/1.png" publishTime="10/13/2019 22:48:42" />
+  </publishProfile>
+</publishData>
